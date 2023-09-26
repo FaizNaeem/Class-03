@@ -1,7 +1,5 @@
 'use client'
-
 import { useContext } from "react";
-
 import ThemProvider, { ThemeContext } from "@/context/ThemProvider"
 import { AuthContext } from "@/context/AuthProvider";
 export default function Home() {
@@ -10,7 +8,7 @@ export default function Home() {
   console.log(user.userName);
   return (
     <>
-      <h1 className='font-semibold text-3xl text-center bg-slate-500' sty>My Name is {user.userName}
+      <h1 className='font-semibold text-3xl text-center bg-slate-500' style={{color:theme}}>My Name is {user.userName}
       <hr />
       {/* {
         theme==="light"? alert("yes color is light"): alert("no")
