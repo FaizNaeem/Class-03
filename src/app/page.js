@@ -16,7 +16,6 @@ export default function Home() {
       MY Father Name is : {user.fatherName}:
       <hr />
       MY Age is : {user.Age}</h1>
-
     </>
   )
 }
