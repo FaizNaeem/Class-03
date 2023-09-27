@@ -1,25 +1,27 @@
 'use client'
-import { useContext } from "react";
-import ThemProvider, { ThemeContext } from "@/context/ThemProvider"
-import { AuthContext } from "@/context/AuthProvider";
+// import { useContext } from "react";
+// import ThemProvider, { ThemeContext } from "@/context/ThemProvider"
+// import { AuthContext } from "@/context/AuthProvider";
+import Link from "next/link"
+import Users from "./user/page"
 export default function Home() {
-  let {theme} = useContext(ThemeContext)
-  let {user} = useContext(AuthContext)
-  console.log(theme);
-  console.log(user);
+  // let {theme} = useContext(ThemeContext)
+  // let {user} = useContext(AuthContext)
+  // console.log(theme);
+  // console.log(user);
   return (
     <>
-    <div  style={{background:"gray" ,textAlign:"center"}}>
+    <div className="flex justify-center  items-center w-full">
 
-      <h1 className='font-semibold text-3xl text-center' style={{color:theme}}>My Name is {user.userName}
-      <hr />
-      {/* {
-        theme==="light"? alert("yes color is light"): alert("no")
-      } */}
-      MY Father Name is : {user.fatherName}:
-      <hr />
-      MY Age is : {user.Age}</h1>
-      </div>
+    <button className="">
+      <Link href={'/user'}>
+      Hello
+      </Link>
+      
+      </button>
+    </div>
+      
+  {/* <Users/> */}
     </>
   )
 }

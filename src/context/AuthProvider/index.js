@@ -5,54 +5,54 @@ import React ,{createContext, useState}from 'react'
     const [user, SetUser] = useState(
         [
 
-            {  id :1,
+            {  id :0,
                 userName:"Faiz",
                 Age:18,
                 fatherName:"Naeem"
             },
             {
-                id:2,
+                id:1,
                 userName:"Atta",
                 Age:17,
                 fatherName:"Naeem"
             },
-            {   id : 3,
+            {   id : 2,
                 userName:"Junaid",
                 Age:18,
                 fatherName:"Salam"
             },
             {
-                id : 4,
+                id : 3,
                 userName:"Zunair",
                 Age:20,
                 fatherName:"Ahmed"
             },
             {
-                id : 5,
+                id : 4,
                 userName:"Bilal",
                 Age:26,
                 fatherName:"Raza"
             },
             {  
-                id : 6,
+                id : 5,
                 userName:"Taha",
                 Age:21,
                 fatherName:"Naseem"
             },
             {
-                id : 7,
+                id : 6,
                 userName:"Hassan",
                 Age:25,
                 fatherName:"Jahagangir"
             },
 
             {
-                id : 8,
+                id : 7,
                 userName:"Mudassir",
                 Age:23,
                 fatherName:"Saleem"
             },
-            {  id : 9,
+            {  id : 8,
                 userName:"Saad",
                 Age:15,
                 fatherName:"Saleem"
