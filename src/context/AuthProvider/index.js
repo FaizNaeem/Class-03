@@ -3,6 +3,7 @@ import React ,{createContext, useState}from 'react'
  export  const AuthContext = createContext()
  export default function AuthProvider({children}){
     const [user, SetUser] = useState(
+     
         [
 
             {  id :0,

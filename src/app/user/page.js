@@ -11,16 +11,20 @@ export default function Users() {
   console.log(user);
   return (
     <>
-    <div >
+    <div style={{ backgroundColor:"black"}}  >
+        <div className="sticky-top">
+
+        <h1 align="center"  style={{color:"white" , background:"black"}}>Users</h1>
+        </div>
       {
         user.map((e,i)=>{
         return (
-          <Link key={i} href={`user/${e.id}`}>
-          <div key={i} className='' style={{width:"100%" , padding:"5px", background:"slate"
+          <Link key={i} href={`user/${e.id}`} style={{textDecoration:"none"}}>
+          <div key={i} className=''  style={{width:"100%" , background:"lightblue",padding:"10px"
         }}>
             
-              <h1 className='font-bold '>{e.userName}</h1>
-               <p>{e.fatherName}</p>
+              <h1 className='font-bold' style={{color:"white" ,textDecoration:"none", textAlign:"center", background:"black"}}>{e.id }:{e.userName}</h1>
+            
           </div>
           </Link>
         ) 

@@ -10,11 +10,21 @@
     width: 100%
     /* width: 18rem; */
 }
+*{
+background-color: black;
+}
 .card{
     align-items: center !important;
     justify-content: center !important;
     display: flex !important;
+    background: white !important; 
+
     /* width: 100% !important; */
+    
     /* border: none !important; */
     /* width: 18rem; */
 }
+.card-body, h5 , p{
+background-color: white;
+}
+

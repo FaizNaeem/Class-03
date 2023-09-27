@@ -8,7 +8,9 @@ import Link from "next/link"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+
 export default  function Details({params}) {
+    
   let {theme} = useContext(ThemeContext)
   let {user} = useContext(AuthContext)
 // let hello = 
@@ -19,21 +21,23 @@ export default  function Details({params}) {
 // setTimeout(()=>{
 
     const Id = params.id;
-    
+    // setTimeout
     const userData =  user[Id];
     console.log(userData);
 // },5000)
 
   return (
     <>
+        
     <div className="hl">
     <div className="card" style={{width: "20rem;" }}>
+       
   <img src={`${userData.pic}`}  style={{width:"20rem"}} class="card-img-top" alt="..."/>
-  <div class="card-body">
+  <div className="card-body">
     <h5 class="card-title">Name: {userData.userName}</h5>
     <p class="card-text"> Father :-- {userData.fatherName}</p>
     <h5 class="card-title">Age: {userData.Age}</h5>
-    <a href="#" class="btn btn-primary">Hello everyOne</a>
+    <a href="#" class="btn btn-success">Hello everyOne</a>
   </div>
 </div>
  
