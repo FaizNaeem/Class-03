@@ -31,8 +31,10 @@ export default  function Details({params}) {
         
     <div className="hl">
     <div className="card" style={{width: "20rem;" }}>
-       
-  <img src={`${userData.pic}`}  style={{width:"20rem"}} class="card-img-top" alt="..."/>
+       {
+        userData.pic ? 
+  <img src={`${userData.pic}`}  style={{width:"20rem"}} class="card-img-top" alt="..."/>:<p>hi</p>
+       }
   <div className="card-body">
     <h5 class="card-title">Name: {userData.userName}</h5>
     <p class="card-text"> Father :-- {userData.fatherName}</p>

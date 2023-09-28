@@ -18,20 +18,20 @@ import React ,{createContext, useState}from 'react'
                 userName:"Atta",
                 Age:17,
                 fatherName:"Naseem",
-                pic:"https://lh3.googleusercontent.com/pw/ADCreHdEnHPaPmtPS0zDWQokShhbiooa7jf47UdrrVLDnef6p3DxvTmpreFS1dGqH1XQauh_IyBUg69SZLlHhbP5P0n6k0yvRpr6oipahBw3yZ6-_naQ1fea-Ia7QwOxFVruVCW2y3aWeGivN9g5zEvIDfXNWjPaFnrd0FU939kMbkyKXUdxTYYWfBvyd-YquYAdeOzkBlhdsn34jjEcg9z-nUXdu5iy9RHiRruBFYMeSu86ZkWCn-FxLVNxqoCTNf0C7ExCrM65LzV61pI4eWlflWSLHLBq_QzaYcaZqoVfjW1fSBMJJqA1JAoSr4qLgKOn4KDtANpbA0h-YJ0SHPTXpq4F5jTdunt5Ak9JmhCXj2T7afGjbVJKsxjO7BsGXz78dcCFMZ_0YJIrhNTiTqsKtVi-X_h5w_veeikZhdtXntnTgRRfaVol_C67vaDRMtJwXcdm-cfiEGfyBK5FDRSYKaZAZSA_T26LUcX-kL5UFHfkGrl2CjvZkR7nNylD_9KuF2HATRJlxvxXemREEHxXpFp6DfM3Dh5UK4SO-PMUpVWRmQovgSKGREZaFHUbR1bm3YyaJhSD20ceVaPNeRbCgnToJ2YyXt4rFyzMmcnnTPY7jn7L94b4t1pgZ_-ZEDbMzB-5HG1oYD5l0nSsmi9hZmdI7mPrPUkjixcFraxC2hJoMaR0yM9QN8SVRhDcNUEDt8WlnllgYxjmMDXD7JT_EyogB_4WRVoC1oBx3ZCqcCwPqQtjHv2ux9XAtj4oGKJVF76fkswNLXDNebTLEYo0ur9jRq2h00iLMp_BuqzrugQVzv-t6pml6dN9t2YFhWu9jZzML1r4DTpQjd1TSxFB-N9i4e5jrl2k39z6kP_eFRgEf52bISwQl4yucdac1bqNuiFqZPWDSYfGhpOvtPPWID_cOM4=w663-h661-s-no?authuser=0"
+                 pic:"https://scontent.fkhi22-1.fna.fbcdn.net/v/t39.30808-6/355701841_1308847643394480_6772937578471435878_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeGEoVuQ1IerE9ARHovkvkaxVxXx7eAcD2ZXFfHt4BwPZur6SKbgiT4L2XcrvzMI_nMkuqowJvGta6uAYdzO_D4q&_nc_ohc=O27zzfT-ZRoAX_-TiPN&_nc_ht=scontent.fkhi22-1.fna&oh=00_AfA5gXCmyOfZwuJiwda61uC-03IDw4rnkhJHmuHs8HMkFw&oe=651B2143"
             },
             {   id : 2,
                 userName:"Junaid",
                 Age:18,
                 fatherName:"Salam",
-                pic:"https://lh3.googleusercontent.com/a-/ALV-UjXaYS2OKCcMXTXU_aqtNBgCJ5tXFBMwPLeFMMEleTymig=s272-p-k-rw-no"
+                pic:"https://lh3.googleusercontent.com/a-/ALV-UjVYb8o-DCgV0ORRsDiUyALdXhulQqsfKu-ovKXIUUVNdQ=s48-p"
             },
             {
                 id : 3,
                 userName:"Owais",
                 Age:20,
                 fatherName:"Ahmed",
-                pic:"https://lh3.googleusercontent.com/pw/ADCreHcn7xc2wTNA88uLAjvfNqibuUmaOAQqa3TaxxMdjdmzjePiLfU4UARjQ_6IpO4MK5b-meI-AuyeOp-jSHjcvbV6veegTLI9b4tGTCZF5LL86lqOeTxfK_Hs06-tKXxQR3pqc0T0uGzjwibpHmTOycYeP48yLaOyYQeFDXGeuhHKaXSdy06uylTyWHb66pBVhh6DmCTBTV1jZB5F0FaQQysPnqdP6tE8KnekDRydaEYVArZO4oEGmLQGFBwZF0bLR_tdaG7miEoWR14czKZ_QR1RTb6MfkC1MoxjgBiulfAfL16qI2YchK7v4pHFt5BQS609-KF2d4UIWJhVS2X8ail4dTO6DheBN24UfGPLXCe9eCT6Oszu1fCgkou5irdgkmmWNw_cTeAKiJqL_HyznWZSig9ABbnmuSzGZ65YHT51s4y11VtfD-AiIghYgEnL0IPZtTKrHTDuHDe3GlU6pMUAxhZPkiMWcDsWSj2sQlW0EXIXb7rdAhVEfAeRE8kd4TQMpMQKBBnevzYIPzqF2ref_2lUdPslyz1JtODYIJkRAqjFd5_1ZzkP4UWsQnf6CdgxYJA4Q-oxtBHN-WBy-V2K5A0uyf5Soy08C3AdTnzdD3W0HR80orPmjH6hJDo0AfsrPHnwRcvUOA1hmX9PQvIFuq925QpQSZ9yx_u6Ybo_JqFRoq3rDYWHoEGZcueYaxBMhmfz1C0Y30JQ4IpH0aMPtnC0WSoUiI54OXKgGsbwD2JT-r1RPTlRwpQosOkDJRl7tp5fX_rF782ZSQ7cfLm1RDLc7RV74vupMJ4JHpD7qR3kjtCqxsOU6p-pwZb69bux4T-LtT3nURsKEIceFf0I1T6OA1ma-iSRGhr6rC0-F9mBk5zPkagGtiYt2NgUl0ig-uwq5WIzWn4lT1H4kmJ1-gQ=w136-h181-no?authuser=0"
+                pic:"https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGljfGVufDB8fDB8fHww&w=1000&q=80"
 
             
             },
